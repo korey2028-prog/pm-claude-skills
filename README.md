@@ -133,7 +133,7 @@ The product-management core first, then the bundles everyone borrows. Each row i
 | 用中文工作 | [pm-china-work](plugins/pm-china-work/) | 周报、述职、复盘，中国职场的写法 | 你的工作记录 |
 <!-- WHAT-YOU-CAN-DO:END -->
 
-Install any bundle: `/plugin install pm-decoders@pm-claude-skills`, or `npx pm-claude-skills add --bundle pm-decoders`. All 152 bundles: [`plugins/`](plugins/) · every skill: **[SKILLS.md](SKILLS.md)** · chain them: [WORKFLOWS.md](WORKFLOWS.md)
+Install any bundle: `/plugin install pm-decoders@pm-claude-skills`, or `npx pm-claude-skills add --bundle pm-decoders`. All 152 bundles with every skill and install command: **[docs/catalogue.md](docs/catalogue.md)** · every skill in one page: [SKILLS.md](SKILLS.md) · chain them: [WORKFLOWS.md](WORKFLOWS.md)
 
 ## 🇨🇳 中文用户
 
@@ -166,6 +166,13 @@ An honest summary of what is checked, measured and still unreviewed, computed fr
 - **Honesty rules baked in:** decoders end with a not-advice line ([the severity scale](docs/severity-scale.md)), calculators name what they do not model, simulators debrief out of character. PM Skills is not a substitute for a professional.
 
 **Privacy, stated plainly:** everything installable runs locally. Skills are inert markdown on your machine; the CLI, the exports and the local MCP server send nothing anywhere, and telemetry is off unless you set `PM_SKILLS_TELEMETRY=1` (skill name only, never content). The two things that do leave your machine are your prompts to whichever model provider you chose, and requests to the hosted playground or hosted MCP if you opt to use them. Full statements: [docs/TELEMETRY.md](docs/TELEMETRY.md) · report a vulnerability: [SECURITY.md](SECURITY.md) · licence: [MIT](LICENSE). Verify a release: `npx pm-claude-skills verify --release` (signed SBOM, Sigstore provenance).
+
+## 🙌 Community
+
+- **Show and Tell:** share what a skill produced, including what it got wrong: [open a Show and Tell](https://github.com/mohitagw15856/pm-claude-skills/issues/new?template=show-and-tell.yml). The best entries become [showcases](docs/showcases/).
+- **Vote on what gets built next:** the [tech tree](https://mohitagw15856.github.io/pm-claude-skills/tech-tree/) ranks open [skill requests](https://github.com/mohitagw15856/pm-claude-skills/issues/new?labels=skill-request&title=Skill:%20) by 👍; the top three are in research.
+- **Roadmap:** confirmed direction in [ROADMAP.md](ROADMAP.md), the live signals behind it in [docs/roadmap.md](docs/roadmap.md).
+- **Chat:** TODO, a Discord or GitHub Discussions link goes here once the maintainer enables one; until then, issues are the front door.
 
 ## 🤝 Contributing
 
