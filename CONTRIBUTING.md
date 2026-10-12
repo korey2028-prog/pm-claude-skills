@@ -244,3 +244,7 @@ Open a [Discussion](../../discussions) or raise an [Issue](../../issues). Happy 
 ---
 
 *Thank you for contributing. Every skill added here saves someone an hour they'd rather spend on something else.*
+
+## Keeping the translated READMEs in sync
+
+`README.md` is the source of truth. `README.zh-CN.md`, `README.zh-TW.md`, `README.ko.md`, `README.ja.md`, `README.es.md` and `README.pt-BR.md` are translations of the short front page only (never of the full docs), each opening with the same language-switcher line and a machine-assisted note. When you change the English README in a way that changes meaning (new sections, changed claims or numbers), update the translations in the same PR or open a follow-up issue naming the files; cosmetic English edits do not need a sync. The drift check keeps counts honest in every variant, so never hand-edit a skill or bundle count in one file only. Native-speaker corrections are always welcome as standalone PRs.
